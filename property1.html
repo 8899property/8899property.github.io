@@ -22,7 +22,7 @@ limitations under the License.
   <meta charset="utf-8">
   <title>Tokopedia Care Tower</title>
   <link rel="shortcut icon" type="image/png" href="https://8899property.github.io/indonesia_640.png">
-  <link rel="canonical" href="https://www.ampstart.com/templates/themes/e-commerce/product-details.amp">
+  <link rel="canonical" href="https://8899property.github.io/property1.html">
   <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
   <meta name="amp-google-client-id-api" content="googleanalytics">
 
@@ -35,7 +35,7 @@ limitations under the License.
 
 <script custom-element="amp-sidebar" src="https://cdn.ampproject.org/v0/amp-sidebar-0.1.js" async=""></script>
 <script custom-element="amp-bind" src="https://cdn.ampproject.org/v0/amp-bind-0.1.js" async=""></script>
-<script custom-element="amp-carousel" src="https://cdn.ampproject.org/v0/amp-carousel-0.1.js" async=""></script>
+<script custom-element="amp-carousel" src="https://cdn.ampproject.org/v0/amp-carousel-0.2.js" async=""></script>
 <script custom-element="amp-selector" src="https://cdn.ampproject.org/v0/amp-selector-0.1.js" async=""></script>
 
 <script custom-template="amp-mustache" src="https://cdn.ampproject.org/v0/amp-mustache-0.1.js" async=""></script>
@@ -53,7 +53,7 @@ limitations under the License.
   <header class="ampstart-headerbar fixed flex justify-start items-center top-0 left-0 right-0 pl2 pr4 pt2 md-pt0">
     <div role="button" aria-label="open sidebar" on="tap:header-sidebar.toggle" tabindex="0" class="ampstart-navbar-trigger  pr2 absolute top-0 pr0 mr2 mt2"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="block"><path fill="none" d="M0 0h24v24H0z"></path><path fill="currentColor" d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"></path></svg>
     </div>
-      <a href="landing.amp.html" class="text-decoration-none inline-block mx-auto ampstart-headerbar-home-link mb1 md-mb0 ">
+      <a href="https://8899property.github.io/" class="text-decoration-none inline-block mx-auto ampstart-headerbar-home-link mb1 md-mb0 ">
         <amp-img src="https://8899property.github.io/logo-report.png" width="96" height="27" layout="fixed" class="my0 mx-auto " alt=""></amp-img>
       </a>
     <!--
@@ -86,16 +86,7 @@ limitations under the License.
   </div>
   <nav class="ampstart-sidebar-nav ampstart-nav">
     <ul class="list-reset m0 p0 ampstart-label">
-        <li>
-          <a href="landing.amp.html" class="text-decoration-none block 22">
-          <amp-img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/%2BJakarta_Logo.svg/512px-%2BJakarta_Logo.svg.png?20230708035130" width="279" height="175" layout="responsive" class="ampstart-sidebar-nav-image inline-block mb4" alt="Company logo" noloading="">
-            <div placeholder="" class="commerce-loader"></div>
-          </amp-img>
-          </a>
-        </li>
-          <li class="ampstart-nav-item "><a class="ampstart-nav-link" href="product-listing.amp.html">Products</a></li>
-          <li class="ampstart-nav-item "><a class="ampstart-nav-link" href="blog-listing.amp.html">Blog</a></li>
-          <li class="ampstart-nav-item "><a class="ampstart-nav-link" href="contact.amp.html">Contact us</a></li>
+          <li class="ampstart-nav-item "><a class="ampstart-nav-link" href="https://8899property.github.io/">HOME</a></li>
     </ul>
   </nav>
 
@@ -115,9 +106,9 @@ limitations under the License.
 </ul>
 
     <ul class="ampstart-sidebar-faq list-reset m0">
-        <li class="ampstart-faq-item"><a href="#" class="text-decoration-none">Size Guide</a></li>
-        <li class="ampstart-faq-item"><a href="#" class="text-decoration-none">Returns Policy</a></li>
-        <li class="ampstart-faq-item"><a href="#" class="text-decoration-none">Cookie &amp; privacy policy</a></li>
+        <li class="ampstart-faq-item"><a href="#" class="text-decoration-none">印度尼西亚调查组</a></li>
+        <li class="ampstart-faq-item"><a href="#" class="text-decoration-none">ivy</a></li>
+        <li class="ampstart-faq-item"><a href="#" class="text-decoration-none">jan jan</a></li>
     </ul>
 </amp-sidebar>
 <!-- End Sidebar -->
@@ -173,7 +164,7 @@ limitations under the License.
     <amp-state id="product">
       <script type="application/json">
         {
-        "price": "£470",
+        "price": Rp350.000.000",
         "selectedColor": "black",
           "black": {
             "thumb": {
@@ -206,28 +197,124 @@ limitations under the License.
 
     <section class="flex flex-wrap pb4 md-pb7">
       <div class="col-12 md-col-6 px2 pt2 md-pl7 md-pt4">
-        <amp-carousel width="1280" height="720" layout="responsive" type="slides" [slide]="product.selectedSlide" on="slideChange: AMP.setState({product: {selectedSlide: event.index}})">
-          <amp-img [src]="product[product.selectedColor].large.image1" src="https://8899property.github.io/tokped-care-1.webp" width="1280" height="720" layout="responsive" role="button" tabindex="0" alt="product image" noloading="">
-<div placeholder="" class="commerce-loader"></div>          </amp-img>
-          <amp-img [src]="product[product.selectedColor].large.image2" src="https://8899property.github.io/tokped-care-2.webp" width="1280" height="720" layout="responsive" role="button" tabindex="0" alt="product image" noloading="">
-<div placeholder="" class="commerce-loader"></div>          </amp-img>
-          <amp-img [src]="product[product.selectedColor].large.image3" src="https://8899property.github.io/meeting-room-tokped.webp" width="1280" height="720" layout="responsive" role="button" tabindex="0" alt="product image" noloading="">
-<div placeholder="" class="commerce-loader"></div>          </amp-img>
-        </amp-carousel>
+        <amp-carousel
+  id="carousel-with-preview"
+  width="1280"
+  height="720"
+  layout="responsive"
+  type="slides"
+  role="region"
+  aria-label="Carousel with slide previews"
+>
+  <amp-img
+    src="https://8899property.github.io/tokped-care-1.webp"
+    width="1280"
+    height="720"
+    layout="responsive"
+    alt="apples"
+  ></amp-img>
+  <amp-img
+    src="https://8899property.github.io/tokped-care-2.webp"
+    width="1280"
+    height="720"
+    layout="responsive"
+    alt="lemons"
+  ></amp-img>
+  <amp-img
+    src="https://8899property.github.io/meeting-room-tokped.webp"
+    width="1280"
+    height="720"
+    layout="responsive"
+    alt="blueberries"
+  ></amp-img>
+  <amp-img
+    src="https://res.cloudinary.com/dtqgbpizx/image/upload/v1694168900/49a90155-c82e-4be2-9e77-a2da4b8e8be7_abbmwz.jpg"
+    width="1280"
+    height="720"
+    layout="responsive"
+    alt="blueberries"
+  ></amp-img>
+  <amp-img
+    src="https://res.cloudinary.com/dtqgbpizx/image/upload/v1694169090/3250e351-816d-487b-a92d-13812787ebcd_fcbpvg.webp"
+    width="1280"
+    height="720"
+    layout="responsive"
+    alt="blueberries"
+  ></amp-img>
+  <amp-img
+    src="https://res.cloudinary.com/dtqgbpizx/image/upload/v1694169340/5f16ee5a-0706-4256-b5fa-bc9b03a286d5_h68rak.webp"
+    width="1280"
+    height="720"
+    layout="responsive"
+    alt="blueberries"
+  ></amp-img>
+  <amp-img
+    src="https://res.cloudinary.com/dtqgbpizx/image/upload/v1694169955/apartemen_ttytff.webp"
+    width="1280"
+    height="720"
+    layout="responsive"
+    alt="blueberries"
+  ></amp-img>
+</amp-carousel>
 
-        <amp-selector class="center" [selected]="product.selectedSlide" on="select:AMP.setState({product: {selectedSlide: event.targetOption}})">
-          <ul class="list-reset inline-block">
-            <li class="inline-block commerce-product-thumb">
-              <amp-img option="0" layout="responsive" selected="selected" [src]="product[product.selectedColor].thumb.image1" src="https://8899property.github.io/tokped-care-1.webp" width="320" height="180" alt="thumbnail"></amp-img>
-            </li>
-            <li class="inline-block commerce-product-thumb">
-              <amp-img option="1" layout="responsive" [src]="product[product.selectedColor].thumb.image2" src="https://8899property.github.io/tokped-care-2.webp" width="320" height="180" alt="thumbnail"></amp-img>
-            </li>
-            <li class="inline-block commerce-product-thumb">
-              <amp-img option="2" layout="responsive" [src]="product[product.selectedColor].thumb.image3" src="https://8899property.github.io/meeting-room-tokped.webp" width="320" height="180" alt="thumbnail"></amp-img>
-            </li>
-          </ul>
-        </amp-selector>
+<div class="carousel-preview">
+  <button on="tap:carousel-with-preview.goToSlide(index=0)">
+    <amp-img
+      src="https://8899property.github.io/tokped-care-1.webp"
+      width="60"
+      height="40"
+      alt="apples"
+    ></amp-img>
+  </button>
+  <button on="tap:carousel-with-preview.goToSlide(index=1)">
+    <amp-img
+      src="https://8899property.github.io/tokped-care-2.webp"
+      width="60"
+      height="40"
+      alt="lemons"
+    ></amp-img>
+  </button>
+  <button on="tap:carousel-with-preview.goToSlide(index=2)">
+    <amp-img
+      src="https://8899property.github.io/meeting-room-tokped.webp"
+      width="60"
+      height="40"
+      alt="blueberries"
+    ></amp-img>
+  </button>
+  <button on="tap:carousel-with-preview.goToSlide(index=3)">
+    <amp-img
+      src="https://res.cloudinary.com/dtqgbpizx/image/upload/v1694168900/49a90155-c82e-4be2-9e77-a2da4b8e8be7_abbmwz.jpg"
+      width="60"
+      height="40"
+      alt="blueberries"
+    ></amp-img>
+  </button>
+  <button on="tap:carousel-with-preview.goToSlide(index=4)">
+    <amp-img
+      src="https://res.cloudinary.com/dtqgbpizx/image/upload/v1694169090/3250e351-816d-487b-a92d-13812787ebcd_fcbpvg.webp"
+      width="60"
+      height="40"
+      alt="blueberries"
+    ></amp-img>
+  </button>
+  <button on="tap:carousel-with-preview.goToSlide(index=5)">
+    <amp-img
+      src="https://res.cloudinary.com/dtqgbpizx/image/upload/v1694169340/5f16ee5a-0706-4256-b5fa-bc9b03a286d5_h68rak.webp"
+      width="60"
+      height="40"
+      alt="blueberries"
+    ></amp-img>
+  </button>
+  <button on="tap:carousel-with-preview.goToSlide(index=6)">
+    <amp-img
+      src="https://res.cloudinary.com/dtqgbpizx/image/upload/v1694169955/apartemen_ttytff.webp"
+      width="60"
+      height="40"
+      alt="blueberries"
+    ></amp-img>
+  </button>
+</div>
       </div>
       <div class="col-12 md-col-6 flex flex-wrap content-start px2 md-pl5 md-pr7 md-pt4">
         <div class="col-6 self-start pb2">
@@ -245,7 +332,7 @@ limitations under the License.
         <div class="col-12 self-start pb4">Office Space Ciputra International Puri (Tokopedia Care Tower)</div>
         <hr class="mb4">
         <div class="col-6 self-start pb4">
-          <span class="h6 md-h7 align-top pr2">TYPE: FURNISHED</span>
+          <span class="h6 md-h7 align-top pr2">TYPE: 家具齐全</span>
           
         </div>
         <div class="col-6 self-start pb4">
@@ -257,7 +344,7 @@ limitations under the License.
         </div>
         <hr class="mb4">
         <div class="col-12 self-start mb4 commerce-product-btn-wrapper">
-          <a href="https://goo.gl/maps/xwu3Uv1o1WJWSiww5"><button class="ampstart-btn ampstart-btn-secondary caps">谷歌地图</button></a>
+          <a href="https://goo.gl/maps/xwu3Uv1o1WJWSiww5"><button class="ampstart-btn ampstart-btn-secondary caps">谷歌地图</button></a> <a href="https://wa.me/+6289516320287"><button class="ampstart-btn ampstart-btn-secondary caps">联系代理</button></a>
         </div>
         <hr class="md-hide lg-hide">
       </div>
@@ -266,188 +353,90 @@ limitations under the License.
         <div class="col-12 md-col-6 px2 md-pl7 commerce-product-desc">
           <section class="pt3 md-pt6 md-px4">
             <h2 class="h5 md-h4">Overview</h2>
-            <p class="mt2 mb3">Id lacus amet. Aliquam eos nunc ut scelerisque lacinia, eu rutrum id, vestibulum aliqua vivamus luctus eu rhoncus
-              ut, sodales id. Velit lacus, fermentum neque et sagittis, ac venenatis volutpat, dolore neque feugiat proin
-              fermentum odio, odio arcu in eu wisi. </p>
+            <p class="mt2 mb3">该建筑位于雅加达西部地区的 Ciputra 国际办公大楼内，由印度尼西亚最大的电子商务公司之一 Tokopedia 赞助。 芝普特拉国际综合大楼在芝普特拉地区入口处设有一处安全门，在通往大楼的道路上设有一个安全哨所，并在大楼大堂设有一个安全检查站，并配有金属探测器。</p>
               <hr>
               <div class="pt3 md-pt4 md-pb4">
-                <h2 class="h5 md-h4 mb2">Reviews</h2>
+                <h2 class="h5 md-h4 mb2">Pros</h2>
   <section class="mb3">
-    <h3 class="h7 mb1">Tom - UK</h3>
-<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="icon-star"><path fill="currentColor" d="M12.6229508 19.2631579L20.4491803 24l-2.0827869-8.9052632 6.8795082-5.93684206L16.157377 8.4 12.6229508 0 9.0885246 8.4 0 9.15789474l6.8795082 5.99999996L4.7967213 24"></path></svg>
-<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="icon-star"><path fill="currentColor" d="M12.6229508 19.2631579L20.4491803 24l-2.0827869-8.9052632 6.8795082-5.93684206L16.157377 8.4 12.6229508 0 9.0885246 8.4 0 9.15789474l6.8795082 5.99999996L4.7967213 24"></path></svg>
-<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="icon-star"><path fill="currentColor" d="M12.6229508 19.2631579L20.4491803 24l-2.0827869-8.9052632 6.8795082-5.93684206L16.157377 8.4 12.6229508 0 9.0885246 8.4 0 9.15789474l6.8795082 5.99999996L4.7967213 24"></path></svg>
-<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="icon-star"><path fill="currentColor" d="M12.6229508 19.2631579L20.4491803 24l-2.0827869-8.9052632 6.8795082-5.93684206L16.157377 8.4 12.6229508 0 9.0885246 8.4 0 9.15789474l6.8795082 5.99999996L4.7967213 24"></path></svg>
-<svg xmlns="http://www.w3.org/2000/svg" class="icon-star-empty" width="26" height="24" viewBox="0 0 26 24"><path fill="currentColor" d="M26 9.15789474L16.911475 8.4 13.377049 0 9.842623 8.4l-9.088525.75789474 6.879509 5.99999996L5.55082 24l7.826229-4.7368421L21.203279 24l-2.082787-8.9052632L26 9.15789474zM13.377049 16.9263158l-4.733606 2.8421053 1.262295-5.431579-4.228689-3.6 5.554099-.5052632 2.145901-5.11578943 2.145902 5.11578943 5.554098.5052632L16.911475 14.4l1.262295 5.4315789-4.796721-2.9052631z"></path></svg>
-    <p class="mt1">Sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla vitae elit libero, a pharetra augue. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Maecenas sed diam eget risus varius blandit sit amet non magna.</p>
+    <h3 class="h7 mb1">靠近公寓（步行即可到达）</h3>
+<p class="mt1">在这座办公楼的对面，有“Indomaret Ciputra 阿姆斯特丹公寓”。 （见最后一张图片）。 我们可以为员工租用公寓楼。</p>
   </section>
   <section class="mb3">
-    <h3 class="h7 mb1">Jerry - UK</h3>
-<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="icon-star"><path fill="currentColor" d="M12.6229508 19.2631579L20.4491803 24l-2.0827869-8.9052632 6.8795082-5.93684206L16.157377 8.4 12.6229508 0 9.0885246 8.4 0 9.15789474l6.8795082 5.99999996L4.7967213 24"></path></svg>
-<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="icon-star"><path fill="currentColor" d="M12.6229508 19.2631579L20.4491803 24l-2.0827869-8.9052632 6.8795082-5.93684206L16.157377 8.4 12.6229508 0 9.0885246 8.4 0 9.15789474l6.8795082 5.99999996L4.7967213 24"></path></svg>
-<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="icon-star"><path fill="currentColor" d="M12.6229508 19.2631579L20.4491803 24l-2.0827869-8.9052632 6.8795082-5.93684206L16.157377 8.4 12.6229508 0 9.0885246 8.4 0 9.15789474l6.8795082 5.99999996L4.7967213 24"></path></svg>
-<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="icon-star"><path fill="currentColor" d="M12.6229508 19.2631579L20.4491803 24l-2.0827869-8.9052632 6.8795082-5.93684206L16.157377 8.4 12.6229508 0 9.0885246 8.4 0 9.15789474l6.8795082 5.99999996L4.7967213 24"></path></svg>
-<svg xmlns="http://www.w3.org/2000/svg" class="icon-star-empty" width="26" height="24" viewBox="0 0 26 24"><path fill="currentColor" d="M26 9.15789474L16.911475 8.4 13.377049 0 9.842623 8.4l-9.088525.75789474 6.879509 5.99999996L5.55082 24l7.826229-4.7368421L21.203279 24l-2.082787-8.9052632L26 9.15789474zM13.377049 16.9263158l-4.733606 2.8421053 1.262295-5.431579-4.228689-3.6 5.554099-.5052632 2.145901-5.11578943 2.145902 5.11578943 5.554098.5052632L16.911475 14.4l1.262295 5.4315789-4.796721-2.9052631z"></path></svg>
-    <p class="mt1">Sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla vitae elit libero, a pharetra augue. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Maecenas sed diam eget risus varius blandit sit amet non magna.</p>
+    <h3 class="h7 mb1">已准备好入住，包括家具</h3>
+<p class="mt1">该办公室提供玻璃隔断、椅子、桌子、会议桌、沙发和空调等家具，价格为IDR 350,000,000 /年或167289日元（汇率2,092.18）</p>
   </section>
   <section class="mb3">
-    <h3 class="h7 mb1">Arthur - UK</h3>
-<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="icon-star"><path fill="currentColor" d="M12.6229508 19.2631579L20.4491803 24l-2.0827869-8.9052632 6.8795082-5.93684206L16.157377 8.4 12.6229508 0 9.0885246 8.4 0 9.15789474l6.8795082 5.99999996L4.7967213 24"></path></svg>
-<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="icon-star"><path fill="currentColor" d="M12.6229508 19.2631579L20.4491803 24l-2.0827869-8.9052632 6.8795082-5.93684206L16.157377 8.4 12.6229508 0 9.0885246 8.4 0 9.15789474l6.8795082 5.99999996L4.7967213 24"></path></svg>
-<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="icon-star"><path fill="currentColor" d="M12.6229508 19.2631579L20.4491803 24l-2.0827869-8.9052632 6.8795082-5.93684206L16.157377 8.4 12.6229508 0 9.0885246 8.4 0 9.15789474l6.8795082 5.99999996L4.7967213 24"></path></svg>
-<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="icon-star"><path fill="currentColor" d="M12.6229508 19.2631579L20.4491803 24l-2.0827869-8.9052632 6.8795082-5.93684206L16.157377 8.4 12.6229508 0 9.0885246 8.4 0 9.15789474l6.8795082 5.99999996L4.7967213 24"></path></svg>
-<svg xmlns="http://www.w3.org/2000/svg" class="icon-star-empty" width="26" height="24" viewBox="0 0 26 24"><path fill="currentColor" d="M26 9.15789474L16.911475 8.4 13.377049 0 9.842623 8.4l-9.088525.75789474 6.879509 5.99999996L5.55082 24l7.826229-4.7368421L21.203279 24l-2.082787-8.9052632L26 9.15789474zM13.377049 16.9263158l-4.733606 2.8421053 1.262295-5.431579-4.228689-3.6 5.554099-.5052632 2.145901-5.11578943 2.145902 5.11578943 5.554098.5052632L16.911475 14.4l1.262295 5.4315789-4.796721-2.9052631z"></path></svg>
-    <p class="mt1">Sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla vitae elit libero, a pharetra augue. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Maecenas sed diam eget risus varius blandit sit amet non magna.</p>
+    <h3 class="h7 mb1">安全级别还是不错的</h3>
+<p class="mt1">该办公室设有三层安全措施。 所有没有门禁卡的访客必须先换取身份证，然后才能前往电梯区域。</p>
+  </section>
+  <section class="mb3">
+    <h3 class="h7 mb1">非常适合初创品牌</h3>
+<p class="mt1">在这栋大楼内设有办事处的其他公司也有相同的领域，例如内容制作商和数字营销。 这座建筑也以印尼顶级电商命名</p>
+  </section>
+  <section class="mb3">
+    <h3 class="h7 mb1">大楼的地下室设有自助餐厅</h3>
+<p class="mt1">地下室有一个美食广场，以实惠的价格出售食物。 底楼还设有便利店，满足日常所需</p>
+  </section>
+  <h2 class="h5 md-h4 mb2">Cons</h2>
+  <section class="mb3">
+    <h3 class="h7 mb1">每个房间的面积有限</h3>
+<p class="mt1">该建筑仅提供多种尺寸选择，114平方米、150平方米和200平方米及以上。 大多数可用单元均不带家具（裸露状态）。</p>
   </section>
               </div>
           </section>
         </div>
         <div class="col-12 md-col-5 md-pr7 md-pl5">
-          <section class="pt3 pb3 md-pb4 px2 md-pt6">
-            <h2 class="h5 md-h4">Size Guide</h2>
-            <div class="mt2">
-              <table class="commerce-table center">
-                <thead class="commerce-table-header h7">
-                  <tr>
-                    <th>Rider Height</th>
-                    <th colspan="2">Suggested Size</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td>160cm-168cm</td>
-                    <td>47-48cm</td>
-                    <td>xx-small</td>
-                  </tr>
-                  <tr>
-                    <td>152cm-160cm</td>
-                    <td>49-50cm</td>
-                    <td>x-small</td>
-                  </tr>
-                  <tr>
-                    <td>148cm-152cm</td>
-                    <td>49-50cm</td>
-                    <td>x-small</td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-          </section>
           <section class="pt3 pb3 md-pt4 md-pb4 px2">
             <h2 class="h5 md-h4">Full spec</h2>
             <div class="mt2">
               <dl class="flex flex-wrap">
-                <dt class="h7 col-4 sm-col-3 md-col-5 lg-col-4 pb1">frame</dt>
-                <dd class="m0 col-8 sm-col-9 md-col-7 lg-col-8 pb1">Hi-Ten steel</dd>
-                <dt class="h7 col-4 sm-col-3 md-col-5 lg-col-4 pb1">handlebars</dt>
-                <dd class="m0 col-8 sm-col-9 md-col-7 lg-col-8 pb1">Chrome plated</dd>
-                <dt class="h7 col-4 sm-col-3 md-col-5 lg-col-4 pb1">stem</dt>
-                <dd class="m0 col-8 sm-col-9 md-col-7 lg-col-8 pb1">Alloy quill stem</dd>
-                <dt class="h7 col-4 sm-col-3 md-col-5 lg-col-4 pb1">grips</dt>
-                <dd class="m0 col-8 sm-col-9 md-col-7 lg-col-8 pb1">Rubber</dd>
-                <dt class="h7 col-4 sm-col-3 md-col-5 lg-col-4 pb1">gear shifter</dt>
-                <dd class="m0 col-8 sm-col-9 md-col-7 lg-col-8 pb1">Rapidfire</dd>
-                <dt class="h7 col-4 sm-col-3 md-col-5 lg-col-4 pb1">gears</dt>
-                <dd class="m0 col-8 sm-col-9 md-col-7 lg-col-8 pb1">7 speed</dd>
-                <dt class="h7 col-4 sm-col-3 md-col-5 lg-col-4 pb1">chainset</dt>
-                <dd class="m0 col-8 sm-col-9 md-col-7 lg-col-8 pb1">Steel</dd>
-                <dt class="h7 col-4 sm-col-3 md-col-5 lg-col-4 pb1">crank</dt>
-                <dd class="m0 col-8 sm-col-9 md-col-7 lg-col-8 pb1">Alloy</dd>
-                <dt class="h7 col-4 sm-col-3 md-col-5 lg-col-4 pb1">pedals</dt>
-                <dd class="m0 col-8 sm-col-9 md-col-7 lg-col-8 pb1">Alloy rat trap</dd>
-                <dt class="h7 col-4 sm-col-3 md-col-5 lg-col-4 pb1">brakes</dt>
-                <dd class="m0 col-8 sm-col-9 md-col-7 lg-col-8 pb1">Side pull caliper brakes</dd>
-                <dt class="h7 col-4 sm-col-3 md-col-5 lg-col-4 pb1">rims</dt>
-                <dd class="m0 col-8 sm-col-9 md-col-7 lg-col-8 pb1">Double wall alloy 20&quot;</dd>
-                <dt class="h7 col-4 sm-col-3 md-col-5 lg-col-4 pb1">tyres</dt>
-                <dd class="m0 col-8 sm-col-9 md-col-7 lg-col-8 pb1">700x19-28</dd>
-                <dt class="h7 col-4 sm-col-3 md-col-5 lg-col-4 pb1">saddle</dt>
-                <dd class="m0 col-8 sm-col-9 md-col-7 lg-col-8 pb1">Vinyl saddle</dd>
-                <dt class="h7 col-4 sm-col-3 md-col-5 lg-col-4 pb1">seatpost</dt>
-                <dd class="m0 col-8 sm-col-9 md-col-7 lg-col-8 pb1">Alloy micro adjust 600mm</dd>
-                <dt class="h7 col-4 sm-col-3 md-col-5 lg-col-4 pb1">kickstand</dt>
-                <dd class="m0 col-8 sm-col-9 md-col-7 lg-col-8 pb1">Alloy</dd>
-                <dt class="h7 col-4 sm-col-3 md-col-5 lg-col-4 pb1">mudguards</dt>
-                <dd class="m0 col-8 sm-col-9 md-col-7 lg-col-8 pb1">Hammered alloy</dd>
-                <dt class="h7 col-4 sm-col-3 md-col-5 lg-col-4 pb1">carrier</dt>
-                <dd class="m0 col-8 sm-col-9 md-col-7 lg-col-8 pb1">Chrome steel front</dd>
+                <dt class="h7 col-4 sm-col-3 md-col-5 lg-col-4 pb1">楼</dt>
+                <dd class="m0 col-8 sm-col-9 md-col-7 lg-col-8 pb1">21</dd>
+                <dt class="h7 col-4 sm-col-3 md-col-5 lg-col-4 pb1">电</dt>
+                <dd class="m0 col-8 sm-col-9 md-col-7 lg-col-8 pb1">16,44 VA</dd>
+                <dt class="h7 col-4 sm-col-3 md-col-5 lg-col-4 pb1">服务费</dt>
+                <dd class="m0 col-8 sm-col-9 md-col-7 lg-col-8 pb1">Rp 49.000 / SQM 每月</dd>
+                <dt class="h7 col-4 sm-col-3 md-col-5 lg-col-4 pb1">尺寸</dt>
+                <dd class="m0 col-8 sm-col-9 md-col-7 lg-col-8 pb1">114,62 M2 </dd>
+                <dt class="h7 col-4 sm-col-3 md-col-5 lg-col-4 pb1">停车位配额</dt>
+                <dd class="m0 col-8 sm-col-9 md-col-7 lg-col-8 pb1">1辆汽车和4辆摩托车</dd>
+                <dt class="h7 col-4 sm-col-3 md-col-5 lg-col-4 pb1">会员停车价格</dt>
+                <dd class="m0 col-8 sm-col-9 md-col-7 lg-col-8 pb1">汽车 450,000 印尼盾/月，摩托车 200,000 印尼盾/月</dd>
               </dl>
             </div>
           </section>
         </div>
 <section class="commerce-related-products col-12 px2 md-mt5 md-px4 ">
   <div class="col-12 mt3 md-mt4">
-    <h2 class="h5 md-h4">You may also like</h2>
+    <h2 class="h5 md-h4">其他物业</h2>
     <amp-carousel height="170" layout="fixed-height" type="carousel" class="px4">
       <ul class="list-reset">
           <li class="commerce-related-product inline-block mr2">
-            <a href="product-details.amp.html" class="text-decoration-none">
-              <amp-img class="mb2" src="..&#x2F;..&#x2F;img&#x2F;e-commerce&#x2F;product&#x2F;product-1.jpg" width="1" height="1" layout="responsive" alt="Sprocket Set" noloading="">
+            <a href="https://8899property.github.io/property2.html" class="text-decoration-none">
+              <amp-img class="mb2" src="https://8899property.github.io/gold-coast-pik-eifel-tower.webp" width="1" height="1" layout="responsive" alt="Sprocket Set" noloading="">
 <div placeholder="" class="commerce-loader"></div>              </amp-img>
-              <h2 class="commerce-related-product-name h6">Sprocket Set</h2>
+              <h2 class="commerce-related-product-name h6">Gold Coast PIK</h2>
             </a>
           </li>
           <li class="commerce-related-product inline-block mr2">
-            <a href="product-details.amp.html" class="text-decoration-none">
-              <amp-img class="mb2" src="..&#x2F;..&#x2F;img&#x2F;e-commerce&#x2F;product&#x2F;product-2.jpg" width="1" height="1" layout="responsive" alt="Fixie Blue" noloading="">
+            <a href="https://8899property.github.io/property3.html" class="text-decoration-none">
+              <amp-img class="mb2" src="https://8899property.github.io/prosperity-mobile.webp" width="1" height="1" layout="responsive" alt="Fixie Blue" noloading="">
 <div placeholder="" class="commerce-loader"></div>              </amp-img>
-              <h2 class="commerce-related-product-name h6">Fixie Blue</h2>
+              <h2 class="commerce-related-product-name h6">Prosperity Tower SCBD</h2>
             </a>
           </li>
           <li class="commerce-related-product inline-block mr2">
-            <a href="product-details.amp.html" class="text-decoration-none">
-              <amp-img class="mb2" src="..&#x2F;..&#x2F;img&#x2F;e-commerce&#x2F;product&#x2F;product-3.jpg" width="1" height="1" layout="responsive" alt="Chain set" noloading="">
+            <a href="https://8899property.github.io/property4.html" class="text-decoration-none">
+              <amp-img class="mb2" src="https://8899property.github.io/golf-island-pik.webp" width="1" height="1" layout="responsive" alt="Chain set" noloading="">
 <div placeholder="" class="commerce-loader"></div>              </amp-img>
-              <h2 class="commerce-related-product-name h6">Chain set</h2>
+              <h2 class="commerce-related-product-name h6">PIK 2 CHOPIN</h2>
             </a>
           </li>
           <li class="commerce-related-product inline-block mr2">
-            <a href="product-details.amp.html" class="text-decoration-none">
-              <amp-img class="mb2" src="..&#x2F;..&#x2F;img&#x2F;e-commerce&#x2F;product&#x2F;product-4.jpg" width="1" height="1" layout="responsive" alt="Leather Saddle" noloading="">
+            <a href="https://8899property.github.io/property5.html" class="text-decoration-none">
+              <amp-img class="mb2" src="https://res.cloudinary.com/dtqgbpizx/image/upload/v1694180672/EQUITY-TOWER_2_jfscqr.webp" width="1" height="1" layout="responsive" alt="Chain set" noloading="">
 <div placeholder="" class="commerce-loader"></div>              </amp-img>
-              <h2 class="commerce-related-product-name h6">Leather Saddle</h2>
-            </a>
-          </li>
-          <li class="commerce-related-product inline-block mr2">
-            <a href="product-details.amp.html" class="text-decoration-none">
-              <amp-img class="mb2" src="..&#x2F;..&#x2F;img&#x2F;e-commerce&#x2F;product&#x2F;product-5.jpg" width="1" height="1" layout="responsive" alt="16-Speed" noloading="">
-<div placeholder="" class="commerce-loader"></div>              </amp-img>
-              <h2 class="commerce-related-product-name h6">16-Speed</h2>
-            </a>
-          </li>
-          <li class="commerce-related-product inline-block mr2">
-            <a href="product-details.amp.html" class="text-decoration-none">
-              <amp-img class="mb2" src="..&#x2F;..&#x2F;img&#x2F;e-commerce&#x2F;product&#x2F;product-6.jpg" width="1" height="1" layout="responsive" alt="Red Cruiser" noloading="">
-<div placeholder="" class="commerce-loader"></div>              </amp-img>
-              <h2 class="commerce-related-product-name h6">Red Cruiser</h2>
-            </a>
-          </li>
-          <li class="commerce-related-product inline-block mr2">
-            <a href="product-details.amp.html" class="text-decoration-none">
-              <amp-img class="mb2" src="..&#x2F;..&#x2F;img&#x2F;e-commerce&#x2F;product&#x2F;product-7.jpg" width="1" height="1" layout="responsive" alt="Horn Handles" noloading="">
-<div placeholder="" class="commerce-loader"></div>              </amp-img>
-              <h2 class="commerce-related-product-name h6">Horn Handles</h2>
-            </a>
-          </li>
-          <li class="commerce-related-product inline-block mr2">
-            <a href="product-details.amp.html" class="text-decoration-none">
-              <amp-img class="mb2" src="..&#x2F;..&#x2F;img&#x2F;e-commerce&#x2F;product&#x2F;product-8.jpg" width="1" height="1" layout="responsive" alt="Caliper Brakes" noloading="">
-<div placeholder="" class="commerce-loader"></div>              </amp-img>
-              <h2 class="commerce-related-product-name h6">Caliper Brakes</h2>
-            </a>
-          </li>
-          <li class="commerce-related-product inline-block mr2">
-            <a href="product-details.amp.html" class="text-decoration-none">
-              <amp-img class="mb2" src="..&#x2F;..&#x2F;img&#x2F;e-commerce&#x2F;product&#x2F;product-9.jpg" width="1" height="1" layout="responsive" alt="Road Bike" noloading="">
-<div placeholder="" class="commerce-loader"></div>              </amp-img>
-              <h2 class="commerce-related-product-name h6">Road Bike</h2>
-            </a>
-          </li>
-          <li class="commerce-related-product inline-block mr2">
-            <a href="product-details.amp.html" class="text-decoration-none">
-              <amp-img class="mb2" src="..&#x2F;..&#x2F;img&#x2F;e-commerce&#x2F;product&#x2F;product-10.jpg" width="1" height="1" layout="responsive" alt="Wheel Set" noloading="">
-<div placeholder="" class="commerce-loader"></div>              </amp-img>
-              <h2 class="commerce-related-product-name h6">Wheel Set</h2>
+              <h2 class="commerce-related-product-name h6">EQUITY TOWER SCBD</h2>
             </a>
           </li>
       </ul>
@@ -457,60 +446,51 @@ limitations under the License.
       </div>
     </section>
   </main>
-<footer class="commerce-footer center">
-  <nav class="mx-auto md-mb0 md-pt5 md-pb5">
-    <ul class="list-reset flex flex-wrap my0 md-pl4 md-pr4 md-mxn4">
-      <li class="pt3 md-pt0 md-px4 col-12 md-col-3 lg-col-2">
-          <h2 class="commerce-footer-header h7 pb2">About us</h2>
-          <ul class="list-reset pb3 md-mx0">
-              <li>
-                <a class="text-decoration-none" href="#">Size Guide</a>
-              </li>
-              <li>
-                <a class="text-decoration-none" href="#">Returns Policy</a>
-              </li>
-              <li>
-                <a class="text-decoration-none" href="#">Cookie &amp; privacy policy</a>
-              </li>
-          </ul>
-        <hr class="md-hide lg-hide col-12 mx0">
-      </li>
-      <li class="pt3 md-pt0 md-px4 col-12 md-col-3 lg-col-2">
-          <h2 class="commerce-footer-header h7 pb2">Contact Us</h2>
-          <ul class="list-reset pb3 md-mx0">
-              <li>
-                <a class="text-decoration-none" href="tel:+440000000000">+44(0)000 000 0000</a>
-              </li>
-              <li>
-                <a class="text-decoration-none" href="mailto:info@BS-LDN">info@BS-LDN</a>
-              </li>
-              <li>
-                <a class="text-decoration-none" href="#">Find a Store</a>
-              </li>
-          </ul>
-        <hr class="md-hide lg-hide col-12 mx0">
-      </li>
-      <li class="pt4 pb3 md-pt0 col-12 md-col-3">
-
-
-    <h3 class="h7 block pt3">follow us</h3>
-<ul class="ampstart-social-follow list-reset flex justify-around items-center flex-wrap m0 mb4">
-    <li>
-        <a href="#" target="_blank" class="inline-block p1" aria-label="Link to AMP HTML Facebook"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="23.6" viewBox="0 0 56 55"><title>Facebook</title><path d="M47.5 43c0 1.2-.9 2.1-2.1 2.1h-10V30h5.1l.8-5.9h-5.9v-3.7c0-1.7.5-2.9 3-2.9h3.1v-5.3c-.6 0-2.4-.2-4.6-.2-4.5 0-7.5 2.7-7.5 7.8v4.3h-5.1V30h5.1v15.1H10.7c-1.2 0-2.2-.9-2.2-2.1V8.3c0-1.2 1-2.2 2.2-2.2h34.7c1.2 0 2.1 1 2.1 2.2V43" class="ampstart-icon ampstart-icon-fb"></path></svg></a>
-    </li>
-    <li>
-        <a href="#" target="_blank" class="inline-block p1" aria-label="Link to AMP HTML Instagram"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 54 54"><title>instagram</title><path d="M27.2 6.1c-5.1 0-5.8 0-7.8.1s-3.4.4-4.6.9c-1.2.5-2.3 1.1-3.3 2.2-1.1 1-1.7 2.1-2.2 3.3-.5 1.2-.8 2.6-.9 4.6-.1 2-.1 2.7-.1 7.8s0 5.8.1 7.8.4 3.4.9 4.6c.5 1.2 1.1 2.3 2.2 3.3 1 1.1 2.1 1.7 3.3 2.2 1.2.5 2.6.8 4.6.9 2 .1 2.7.1 7.8.1s5.8 0 7.8-.1 3.4-.4 4.6-.9c1.2-.5 2.3-1.1 3.3-2.2 1.1-1 1.7-2.1 2.2-3.3.5-1.2.8-2.6.9-4.6.1-2 .1-2.7.1-7.8s0-5.8-.1-7.8-.4-3.4-.9-4.6c-.5-1.2-1.1-2.3-2.2-3.3-1-1.1-2.1-1.7-3.3-2.2-1.2-.5-2.6-.8-4.6-.9-2-.1-2.7-.1-7.8-.1zm0 3.4c5 0 5.6 0 7.6.1 1.9.1 2.9.4 3.5.7.9.3 1.6.7 2.2 1.4.7.6 1.1 1.3 1.4 2.2.3.6.6 1.6.7 3.5.1 2 .1 2.6.1 7.6s0 5.6-.1 7.6c-.1 1.9-.4 2.9-.7 3.5-.3.9-.7 1.6-1.4 2.2-.7.7-1.3 1.1-2.2 1.4-.6.3-1.7.6-3.5.7-2 .1-2.6.1-7.6.1-5.1 0-5.7 0-7.7-.1-1.8-.1-2.9-.4-3.5-.7-.9-.3-1.5-.7-2.2-1.4-.7-.7-1.1-1.3-1.4-2.2-.3-.6-.6-1.7-.7-3.5 0-2-.1-2.6-.1-7.6 0-5.1.1-5.7.1-7.7.1-1.8.4-2.8.7-3.5.3-.9.7-1.5 1.4-2.2.7-.6 1.3-1.1 2.2-1.4.6-.3 1.6-.6 3.5-.7h7.7zm0 5.8c-5.4 0-9.7 4.3-9.7 9.7 0 5.4 4.3 9.7 9.7 9.7 5.4 0 9.7-4.3 9.7-9.7 0-5.4-4.3-9.7-9.7-9.7zm0 16c-3.5 0-6.3-2.8-6.3-6.3s2.8-6.3 6.3-6.3 6.3 2.8 6.3 6.3-2.8 6.3-6.3 6.3zm12.4-16.4c0 1.3-1.1 2.3-2.3 2.3-1.3 0-2.3-1-2.3-2.3 0-1.2 1-2.3 2.3-2.3 1.2 0 2.3 1.1 2.3 2.3z" class="ampstart-icon ampstart-icon-instagram"></path></svg></a>
-    </li>
-    <li>
-        <a href="#" target="_blank" class="inline-block p1" aria-label="Link to AMP HTML Twitter"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="22.2" viewBox="0 0 53 49"><title>Twitter</title><path d="M45 6.9c-1.6 1-3.3 1.6-5.2 2-1.5-1.6-3.6-2.6-5.9-2.6-4.5 0-8.2 3.7-8.2 8.3 0 .6.1 1.3.2 1.9-6.8-.4-12.8-3.7-16.8-8.7C8.4 9 8 10.5 8 12c0 2.8 1.4 5.4 3.6 6.9-1.3-.1-2.6-.5-3.7-1.1v.1c0 4 2.8 7.4 6.6 8.1-.7.2-1.5.3-2.2.3-.5 0-1 0-1.5-.1 1 3.3 4 5.7 7.6 5.7-2.8 2.2-6.3 3.6-10.2 3.6-.6 0-1.3-.1-1.9-.1 3.6 2.3 7.9 3.7 12.5 3.7 15.1 0 23.3-12.6 23.3-23.6 0-.3 0-.7-.1-1 1.6-1.2 3-2.7 4.1-4.3-1.4.6-3 1.1-4.7 1.3 1.7-1 3-2.7 3.6-4.6" class="ampstart-icon ampstart-icon-twitter"></path></svg></a>
-    </li>
-</ul>
-      </li>
-      <li class="flex-auto right-align">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 137 84.3" class="xs-hide sm-hide" width="153" height="96"><path fill="#f9f9f9" d="M62.3 13.3c-2.5 0-4.5-2-4.5-4.5s2-4.5 4.5-4.5 4.5 2 4.5 4.5c-.1 2.5-2.1 4.5-4.5 4.5zm0-8.5c-2.2 0-4 1.8-4 4s1.8 4 4 4 4-1.8 4-4c-.1-2.2-1.8-4-4-4z"></path><path fill="#f9f9f9" d="M62.3 9.7c-.5 0-.9-.4-.9-.9s.4-.9.9-.9.9.4.9.9-.4.9-.9.9zm0-1.4c-.2 0-.4.2-.4.4s.2.4.4.4.4-.2.4-.4-.2-.4-.4-.4zM67.8 11.2c-.9 0-1.6-.7-1.6-1.6 0-.9.7-1.6 1.6-1.6.9 0 1.6.7 1.6 1.6 0 .9-.7 1.6-1.6 1.6zm0-2.7c-.6 0-1.1.5-1.1 1.1 0 .6.5 1.1 1.1 1.1.6 0 1.1-.5 1.1-1.1 0-.6-.5-1.1-1.1-1.1zM75.8 13.3c-2.5 0-4.5-2-4.5-4.5s2-4.5 4.5-4.5 4.5 2 4.5 4.5-2 4.5-4.5 4.5zm0-8.5c-2.2 0-4 1.8-4 4s1.8 4 4 4 4-1.8 4-4-1.8-4-4-4z"></path><path fill="#f9f9f9" d="M75.8 9.7c-.5 0-.9-.4-.9-.9s.4-.9.9-.9.9.4.9.9c.1.5-.4.9-.9.9zm0-1.4c-.2 0-.4.2-.4.4s.2.4.4.4.4-.2.4-.4c.1-.2-.1-.4-.4-.4zM67.8 9.8L62.2 9c-.1 0-.1 0-.2-.1v-.2l3.2-6.1c0-.1.1-.1.2-.1H73c.1 0 .2.1.2.1l.5 1.2v.3L68 9.8h-.2zm-5.2-1.2l5.1.7 5.5-5.5-.4-.8h-7.2l-3 5.6z"></path><path fill="#f9f9f9" d="M75.8 9c-.1 0-.2-.1-.2-.1l-3.5-7.5v-.2c0-.1.1-.1.2-.1h3.1c.8 0 1.4.6 1.4 1.4 0 .7-.6 1.4-1.4 1.4-.1 0-.2-.1-.2-.2s.1-.2.2-.2c.5 0 .9-.4.9-.9s-.4-.9-.9-.9h-2.7l3.3 7c.1.1 0 .3-.1.3h-.1zM67.8 9.8c-.1 0-.2-.1-.2-.2L64.5.7V.6h-.1v.1c-.1.3-.2.3-.3.2l-.7-.5c-.1-.1-.1-.2-.1-.3 0-.1.1-.1.2-.1l1.2.3h2.4c.1 0 .2.1.2.2s0 .2-.1.3L67 1c.1 0 .1 0 0 0h-1.9l3 8.5c0 .1-.1.3-.3.3.1 0 .1 0 0 0z"></path><g><path fill="#f9f9f9" d="M47.5 33.6c-.1 0-.3-.1-.3-.2-.1-.2 0-.4.2-.5l40-20c.2-.1.4 0 .5.2.1.2 0 .4-.2.5l-40 20h-.2z"></path><path fill="#f9f9f9" d="M87.5 33.6h-.2l-40-20c-.2-.1-.3-.3-.2-.5.1-.2.3-.3.5-.2l40 20c.2.1.3.3.2.5 0 .1-.1.2-.3.2z"></path><g><path fill="#f9f9f9" d="M40.7 21.3h1.4v3.5h-.8V22h-.7v-.7zM47 24.1c.2 0 .4-.1.5-.2s.2-.3.2-.6c-.2.1-.4.2-.7.2-.3 0-.6-.1-.8-.3-.2-.2-.3-.5-.3-.9s.1-.6.4-.9c.2-.2.5-.3.9-.3.2 0 .5 0 .6.1.2.1.3.2.4.4.2.3.3.7.3 1.2 0 .3 0 .6-.1.8l-.3.6c-.3.3-.6.4-1 .4-.2 0-.3 0-.5-.1-.1 0-.3-.1-.3-.1-.1 0-.2-.1-.3-.2l.4-.5s.1 0 .1.1c0 0 .1.1.2.1s.2.2.3.2zm.1-1.2c.2 0 .3 0 .4-.1.1-.1.2-.2.2-.4 0-.1 0-.3-.1-.4-.1-.1-.2-.2-.4-.2s-.3 0-.4.1c-.1.1-.1.2-.1.4 0 .1 0 .3.1.4 0 .1.1.2.3.2zM87 21.4c.2-.2.5-.3.9-.3s.6.1.9.3c.2.2.3.4.3.7 0 .3-.1.5-.3.7.3.2.4.5.4.9 0 .3-.1.6-.4.8s-.6.3-1 .3-.7-.1-1-.3c-.2-.2-.4-.5-.4-.8 0-.4.1-.7.4-.9-.2-.2-.3-.4-.3-.7s.3-.5.5-.7zm.5 2.6c.1.1.2.1.4.1s.3 0 .4-.1c.1-.1.2-.2.2-.3 0-.2-.1-.3-.2-.3-.1-.1-.2-.1-.4-.1-.1 0-.3 0-.4.1-.1.1-.2.2-.2.3 0 .1.1.2.2.3zm.1-1.5c.1.1.2.1.3.1s.2 0 .3-.1.1-.2.1-.3c0-.1 0-.2-.1-.3s-.2-.1-.3-.1-.2 0-.3.1-.1.2-.1.3c-.1.1 0 .2.1.3zM92.6 21.3H94v3.5h-.8V22h-.7v-.7z"></path></g></g><g><path fill="#f9f9f9" d="M6.7 61.7H0V46.3h6c1 0 1.9.1 2.7.4.8.2 1.3.6 1.7 1 .7.8 1 1.7 1 2.7 0 1.2-.4 2.1-1.2 2.7-.3.2-.4.3-.5.4s-.3.1-.5.3c1 .2 1.7.6 2.3 1.3.6.7.8 1.5.8 2.4 0 1.1-.4 2-1.1 2.8-.9.9-2.4 1.4-4.5 1.4zm-3.3-9.2H5c1 0 1.7-.1 2.1-.3.5-.2.7-.6.7-1.3s-.2-1.1-.6-1.4c-.4-.2-1.1-.3-2.2-.3H3.4v3.3zm0 6.3h2.4c1 0 1.7-.1 2.2-.4.5-.2.7-.7.7-1.4s-.2-1.2-.7-1.4c-.5-.2-1.4-.3-2.5-.3h-2v3.5zM17.4 46.3h3.4v15.4h-3.4V46.3zM26.8 46.3h3.4v6.3l5.8-6.3h4.2l-6.1 6.8c.5.7 1.5 2.1 2.9 4.1 1.4 2 2.5 3.5 3.2 4.5h-4l-4.5-6.1-1.5 1.7v4.4h-3.4V46.3zM55.7 46.3v3.1H48v3.2h6.9v2.9H48v3.2h7.9v3H44.6V46.3h11.1zM72.8 49.4c-.3.3-.5.6-.5 1.1 0 .4.2.8.6 1.1s1.3.6 2.8.9c1.5.4 2.6.9 3.4 1.6s1.2 1.8 1.2 3.1-.5 2.5-1.6 3.4c-1 .9-2.4 1.3-4.1 1.3-2.4 0-4.6-.9-6.6-2.7l2-2.5c1.7 1.5 3.2 2.2 4.6 2.2.6 0 1.1-.1 1.5-.4.4-.3.5-.6.5-1.1 0-.5-.2-.8-.6-1.1-.4-.3-1.1-.5-2.3-.8-1.8-.4-3.1-1-3.9-1.7-.8-.7-1.2-1.8-1.2-3.2 0-1.5.5-2.6 1.6-3.4 1-.8 2.4-1.2 3.9-1.2 1 0 2.1.2 3.1.5 1 .4 1.9.9 2.7 1.5l-1.7 2.5c-1.3-1-2.7-1.5-4.1-1.5-.5 0-1 .1-1.3.4zM95 46.3h3.4v15.4H95v-6h-6.1v6h-3.4V46.3h3.4v6.4H95v-6.4zM117.3 59.6c-1.6 1.5-3.5 2.3-5.7 2.3s-4.2-.8-5.7-2.3-2.3-3.4-2.3-5.7c0-2.3.8-4.1 2.3-5.7s3.5-2.3 5.7-2.3 4.2.8 5.7 2.3 2.3 3.4 2.3 5.7c.1 2.3-.7 4.2-2.3 5.7zm-1.1-5.7c0-1.4-.4-2.5-1.3-3.5s-2-1.5-3.2-1.5-2.4.5-3.2 1.5c-.9 1-1.3 2.1-1.3 3.5s.4 2.5 1.3 3.5 2 1.4 3.2 1.4 2.4-.5 3.2-1.4 1.3-2.1 1.3-3.5zM135.4 47.7c1.1.9 1.6 2.3 1.6 4.2s-.6 3.3-1.7 4.2c-1.1.9-2.8 1.3-5.1 1.3h-2v4.3h-3.4V46.3h5.4c2.4 0 4.1.5 5.2 1.4zm-2.6 6c.4-.5.6-1.1.6-2 0-.9-.3-1.5-.8-1.9-.5-.4-1.4-.6-2.5-.6h-2v5.2h2.3c1.2 0 2-.2 2.4-.7z"></path></g><g><path fill="#f9f9f9" d="M32.6 84.2h-2.8V78h2.4c.4 0 .8.1 1.1.2.3.1.5.2.7.4.3.3.4.7.4 1.1 0 .5-.2.9-.5 1.1-.1.1-.2.1-.2.2 0 0-.1.1-.2.1.4.1.7.3.9.5.2.3.3.6.3 1s-.1.8-.4 1.2c-.2.3-.8.4-1.7.4zm-1.3-3.7h.7c.4 0 .7 0 .9-.1s.3-.3.3-.5-.1-.5-.3-.6c-.2-.1-.5-.1-.9-.1h-.7v1.3zm0 2.6h1c.4 0 .7 0 .9-.1s.3-.3.3-.6-.1-.5-.3-.6c-.2-.1-.6-.1-1-.1h-.8v1.4zM46.6 80c0 1-.4 1.7-1.2 2l1.6 2.2h-1.7l-1.4-2h-1v2h-1.4V78h2.4c1 0 1.7.2 2.1.5s.6.8.6 1.5zm-1.7.8c.2-.2.3-.4.3-.7 0-.3-.1-.6-.3-.7-.2-.1-.5-.2-.9-.2h-1.1V81h1c.5 0 .8 0 1-.2zM53.4 78h1.4v6.3h-1.4V78zM65.3 78H67l-2 3 2.1 3.3h-1.7l-1.3-2.1-1.3 2.1h-1.7l2.1-3.2-2-3.1h1.7l1.2 1.9 1.2-1.9zM76.1 79.2v5.1h-1.4v-5.1h-1.8V78h5v1.2h-1.8zM89.4 83.4c-.6.6-1.4.9-2.3.9-.9 0-1.7-.3-2.3-.9-.6-.6-1-1.4-1-2.3 0-.9.3-1.7 1-2.3.6-.6 1.4-.9 2.3-.9.9 0 1.7.3 2.3.9.6.6 1 1.4 1 2.3 0 .9-.3 1.7-1 2.3zm-.4-2.3c0-.6-.2-1-.5-1.4-.4-.4-.8-.6-1.3-.6s-1 .2-1.3.6-.5.9-.5 1.4.2 1 .5 1.4.8.6 1.3.6 1-.2 1.3-.6c.3-.4.5-.9.5-1.4zM101.4 78h1.4v6.3h-1.4l-3-3.9v3.9H97V78h1.3l3.1 4v-4z"></path></g></svg>
-      </li>
-    </ul>
-  </nav>
-</footer>
+  <footer class="commerce-footer center">
+        <nav class="mx-auto md-mb0 md-pt5 md-pb5">
+            <ul class="list-reset flex flex-wrap my0 md-pl4 md-pr4 md-mxn4">
+                <li class="pt3 md-pt0 md-px4 col-12 md-col-3 lg-col-2">
+                    <h2 class="commerce-footer-header h7 pb2">印尼调查组</h2>
+                    <ul class="list-reset pb3 md-mx0">
+                        <li> <a class="text-decoration-none" href="#">IVY</a> </li>
+                        <li> <a class="text-decoration-none" href="#">JAN JAN</a> </li>
+                    </ul>
+                    <hr class="md-hide lg-hide col-12 mx0">
+                </li>
+                
+                <li class="pt4 pb3 md-pt0 col-12 md-col-3">
+                    <h3 class="h7 block pt3">follow us</h3>
+                    <ul class="ampstart-social-follow list-reset flex justify-around items-center flex-wrap m0 mb4">
+                        <li> <a href="#" target="_blank" class="inline-block p1"
+                                aria-label="Link to AMP HTML Facebook"><svg xmlns="http://www.w3.org/2000/svg"
+                                    width="24" height="23.6" viewBox="0 0 56 55">
+                                    <title>Facebook</title>
+                                    <path
+                                        d="M47.5 43c0 1.2-.9 2.1-2.1 2.1h-10V30h5.1l.8-5.9h-5.9v-3.7c0-1.7.5-2.9 3-2.9h3.1v-5.3c-.6 0-2.4-.2-4.6-.2-4.5 0-7.5 2.7-7.5 7.8v4.3h-5.1V30h5.1v15.1H10.7c-1.2 0-2.2-.9-2.2-2.1V8.3c0-1.2 1-2.2 2.2-2.2h34.7c1.2 0 2.1 1 2.1 2.2V43"
+                                        class="ampstart-icon ampstart-icon-fb" />
+                                </svg></a> </li>
+                        <li> <a href="#" target="_blank" class="inline-block p1"
+                                aria-label="Link to AMP HTML Instagram"><svg xmlns="http://www.w3.org/2000/svg"
+                                    width="24" height="24" viewBox="0 0 54 54">
+                                    <title>instagram</title>
+                                    <path
+                                        d="M27.2 6.1c-5.1 0-5.8 0-7.8.1s-3.4.4-4.6.9c-1.2.5-2.3 1.1-3.3 2.2-1.1 1-1.7 2.1-2.2 3.3-.5 1.2-.8 2.6-.9 4.6-.1 2-.1 2.7-.1 7.8s0 5.8.1 7.8.4 3.4.9 4.6c.5 1.2 1.1 2.3 2.2 3.3 1 1.1 2.1 1.7 3.3 2.2 1.2.5 2.6.8 4.6.9 2 .1 2.7.1 7.8.1s5.8 0 7.8-.1 3.4-.4 4.6-.9c1.2-.5 2.3-1.1 3.3-2.2 1.1-1 1.7-2.1 2.2-3.3.5-1.2.8-2.6.9-4.6.1-2 .1-2.7.1-7.8s0-5.8-.1-7.8-.4-3.4-.9-4.6c-.5-1.2-1.1-2.3-2.2-3.3-1-1.1-2.1-1.7-3.3-2.2-1.2-.5-2.6-.8-4.6-.9-2-.1-2.7-.1-7.8-.1zm0 3.4c5 0 5.6 0 7.6.1 1.9.1 2.9.4 3.5.7.9.3 1.6.7 2.2 1.4.7.6 1.1 1.3 1.4 2.2.3.6.6 1.6.7 3.5.1 2 .1 2.6.1 7.6s0 5.6-.1 7.6c-.1 1.9-.4 2.9-.7 3.5-.3.9-.7 1.6-1.4 2.2-.7.7-1.3 1.1-2.2 1.4-.6.3-1.7.6-3.5.7-2 .1-2.6.1-7.6.1-5.1 0-5.7 0-7.7-.1-1.8-.1-2.9-.4-3.5-.7-.9-.3-1.5-.7-2.2-1.4-.7-.7-1.1-1.3-1.4-2.2-.3-.6-.6-1.7-.7-3.5 0-2-.1-2.6-.1-7.6 0-5.1.1-5.7.1-7.7.1-1.8.4-2.8.7-3.5.3-.9.7-1.5 1.4-2.2.7-.6 1.3-1.1 2.2-1.4.6-.3 1.6-.6 3.5-.7h7.7zm0 5.8c-5.4 0-9.7 4.3-9.7 9.7 0 5.4 4.3 9.7 9.7 9.7 5.4 0 9.7-4.3 9.7-9.7 0-5.4-4.3-9.7-9.7-9.7zm0 16c-3.5 0-6.3-2.8-6.3-6.3s2.8-6.3 6.3-6.3 6.3 2.8 6.3 6.3-2.8 6.3-6.3 6.3zm12.4-16.4c0 1.3-1.1 2.3-2.3 2.3-1.3 0-2.3-1-2.3-2.3 0-1.2 1-2.3 2.3-2.3 1.2 0 2.3 1.1 2.3 2.3z"
+                                        class="ampstart-icon ampstart-icon-instagram" />
+                                </svg></a> </li>
+                        <li> <a href="#" target="_blank" class="inline-block p1"
+                                aria-label="Link to AMP HTML Twitter"><svg xmlns="http://www.w3.org/2000/svg" width="24"
+                                    height="22.2" viewBox="0 0 53 49">
+                                    <title>Twitter</title>
+                                    <path
+                                        d="M45 6.9c-1.6 1-3.3 1.6-5.2 2-1.5-1.6-3.6-2.6-5.9-2.6-4.5 0-8.2 3.7-8.2 8.3 0 .6.1 1.3.2 1.9-6.8-.4-12.8-3.7-16.8-8.7C8.4 9 8 10.5 8 12c0 2.8 1.4 5.4 3.6 6.9-1.3-.1-2.6-.5-3.7-1.1v.1c0 4 2.8 7.4 6.6 8.1-.7.2-1.5.3-2.2.3-.5 0-1 0-1.5-.1 1 3.3 4 5.7 7.6 5.7-2.8 2.2-6.3 3.6-10.2 3.6-.6 0-1.3-.1-1.9-.1 3.6 2.3 7.9 3.7 12.5 3.7 15.1 0 23.3-12.6 23.3-23.6 0-.3 0-.7-.1-1 1.6-1.2 3-2.7 4.1-4.3-1.4.6-3 1.1-4.7 1.3 1.7-1 3-2.7 3.6-4.6"
+                                        class="ampstart-icon ampstart-icon-twitter" />
+                                </svg></a> </li>
+                    </ul>
+                </li>
+                <li class="flex-auto right-align"> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 137 84.3"
+                        class="xs-hide sm-hide" width="153" height="96">
+                    </svg> </li>
+            </ul>
+        </nav>
 </body>
 </html>
